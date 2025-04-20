@@ -260,31 +260,24 @@
 }
   
 /* styles for mobile devices */
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 414px) {
     body {
         font-size: 12px;
-        padding-top: 100px;
-        padding-left: 100px;
-        padding-right: 100px;
-        width: 72.1%;
+        padding-top: 50px;
+        padding-left: 56px;
+        padding-right: 56px;
+        width: 100%;
+        height:850px;
         margin-left: 0px;
         margin-right: 0px;
     }
-    img{
-        width: 250px;
-        height: 250px;
-        border-radius: 25px;
-        position: relative;
-        margin: auto;
-        padding: auto;
-        
-    }
+
     h1 {
         color: #a58c00;
         width: 100%;
         text-align: relative;
         text-align: center;
-        padding-top: 300px;
+        padding-top: 280px;
         margin-bottom: 0;
         font-family: "Optima"; 
         font-size: 30px; 
@@ -294,40 +287,47 @@
     p {
         color: #a58c00;
         width: 100%;
-        padding: 0px;
+        padding-left: 0px;
         text-align: center;
-        text-align: justify;
+        text-align: center;
         font-family: "Optima";
         font-weight: 520;
     }
     .row1{
         content:'';
-        width:72.1%;
+        width:100%;
         height:315px; 
         position:absolute;  
-        top: 545px;
+        top: 470px;
         background:#191919;
     }
     .row1:before {
         content:'';
         width:100%;
-        height:30%;   
+        height:20%;   
         position:absolute;
         left:0;
         top:-58px;
         background:linear-gradient(transparent 20px, #191919);
     }
     /*image*/
+    img{
+        width: 225px;
+        height: 225px;
+        border-radius: 25px;
+        position: relative;
+        margin: auto;
+        padding: auto;   
+    }
     .imageBox 
     {
         position: relative;
         float: center;
-        right: 135px;
+        right: 50px;
     }
     .imageBox .hoverImg {
         visibility:hidden;
         position: absolute;
-        right: 250px;
         top: 0;
         opacity: 0;
         transition: visibility 0s, opacity 0.5s linear;
@@ -349,8 +349,8 @@
         margin: 4px 2px;
         transition-duration: 0.4s;
         cursor: pointer;
-        left: 287px;
-        top: 550px;
+        left: 140px;
+        top: 480px;
         position: absolute;
         
       }
@@ -378,8 +378,8 @@
         margin: 4px 2px;
         transition-duration: 0.4s;
         cursor: pointer;
-        left: 290px;
-        top: 735px;
+        left: 145px;
+        top: 770px;
         position: absolute;
         display: none;
       }
